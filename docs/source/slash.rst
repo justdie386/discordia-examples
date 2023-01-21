@@ -13,14 +13,14 @@ First off, you need to install the deps
 
 Import the discordia-slash
 ----------------
-```
+``
 local dia = require("discordia")
 local dcmd = require("discordia-commands")
-```
+``
 
 Create a slash command
 ----------------
-```
+``
 local client = dia.Client():useApplicationCommands()
 
 local function initializeCommands(guild)
@@ -45,7 +45,8 @@ local function initializeCommands(guild)
             },
         },
     })
-    end```
+    end
+``
 What this will do is that it will create a slash command with a text input
 
 Get the data from the text input
