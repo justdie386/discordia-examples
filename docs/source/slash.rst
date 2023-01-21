@@ -16,7 +16,7 @@ Import the discordia-slash
 .. code-block:: lua
 
    local discordia= require("discordia")
-   local dcmd = require("discordia-commands")
+   local dcmd = require("discordia-slash")
 
 Create a slash command
 ----------------
@@ -70,4 +70,41 @@ The reason why it has a .from. is because there is the from subcomand between th
 
 Full code
 ----------------
+.. code-block:: lua
+   local discordia= require("discordia")
+   local dcmd = require("discordia-slash")
+local client = discordia.Client():useApplicationCommands()
 
+ local function initializeCommands(guild)
+    local command, err = client:createGuildApplicationCommand(guild.id, {
+        type = commandType.chatInput,
+        name = "get-users",
+        description = " nice",
+        options = {
+            {
+                type = optionType.subCommand,
+                name = " from",
+                description = "Enter the id",
+                options = {
+                    {
+                        type = optionType.string,
+                        name = "role",
+                        description = "id",
+                        required = true,
+                        autocomplete = true,
+                    },
+                },
+            },
+        },
+    })
+    end
+    client:on("ready", function()
+        for guild in client.guilds:iter() do
+             --for some reason we need to use this to actually load the slash command or smt otherwise it won't create itself
+            initializeCommands(guild)
+      end
+   end)
+   client:on("slashCommand", function(interaction, command, args)
+      print(args.from.person)
+   end)
+   client:run("Bot your token")
