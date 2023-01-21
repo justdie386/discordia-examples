@@ -20,7 +20,7 @@ local dcmd = require("discordia-commands")
 
 Create a slash command
 ----------------
-.. code-block:: lua
+.. code-block::
    local client = discordia.Client():useApplicationCommands()
 
  local function initializeCommands(guild)
