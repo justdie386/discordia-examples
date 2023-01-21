@@ -42,7 +42,7 @@ Full code
 ------------
 .. code-block:: lua
 
-local discordia = require('discordia')
+   local discordia = require('discordia')
 require('discordia-components')
 local discordia_modals = require('discordia-modals')
 local interactionType = discordia.enums.interactionType
