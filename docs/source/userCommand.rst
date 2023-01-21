@@ -19,7 +19,7 @@ Import the discordia-slash
    
    
    local discordia= require("discordia")
-   local dcmd = require("discordia-commands")
+   local dcmd = require("discordia-slash")
    
 Create a user command
 ------------
