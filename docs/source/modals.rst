@@ -44,11 +44,13 @@ Full source code
 ------------
 .. code-block:: lua
 
-      local discordia = require('discordia')
+   local discordia = require('discordia')
    require('discordia-components')
    local discordia_modals = require('discordia-modals')
    local interactionType = discordia.enums.interactionType
-
+   local commandType = discordia.enums.appCommandType
+   local optionType = discordia.enums.appCommandOptionType
+   client:enableAllIntents()
    local client = discordia.Client()
 
    local textinput_component = discordia_modals.TextInput {
