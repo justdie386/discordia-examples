@@ -27,7 +27,7 @@ Create a slash command
    local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
-        name = "get-users",
+        name = "test",
         description = " nice",
         options = {
             {
@@ -37,7 +37,7 @@ Create a slash command
                 options = {
                     {
                         type = optionType.string,
-                        name = "role",
+                        name = "person",
                         description = "id",
                         required = true,
                         autocomplete = true,
@@ -49,8 +49,7 @@ Create a slash command
     end
     client:on("ready", function()
         for guild in client.guilds:iter() do
-             --for some reason we need to use this to actually load the slash command or smt otherwise it won't create itself
-            initializeCommands(guild)
+            initializeCommands(guild) --there are other way to initialize it but it is the only way i know
       end
    end)
 
@@ -79,7 +78,7 @@ Full code
  local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
-        name = "get-users",
+        name = "test",
         description = " nice",
         options = {
             {
@@ -89,7 +88,7 @@ Full code
                 options = {
                     {
                         type = optionType.string,
-                        name = "role",
+                        name = "person",
                         description = "id",
                         required = true, --put false if you want it to be optional
                         autocomplete = true, --won't change anything if the optionType is a .string, will autocomplete with users if it is a optionType.user
@@ -101,7 +100,7 @@ Full code
     end
     client:on("ready", function()
         for guild in client.guilds:iter() do
-            initializeCommands(guild) --there are other way to initialize it but it is the only way i know
+            initializeCommands(guild)
       end
    end)
    client:on("slashCommand", function(interaction, command, args)
