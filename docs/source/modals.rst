@@ -49,7 +49,6 @@ Full source code
    local interactionType = discordia.enums.interactionType
    local commandType = discordia.enums.appCommandType
    local optionType = discordia.enums.appCommandOptionType
-   client:enableAllIntents()
    local client = discordia.Client()
 
    local textinput_component = discordia_modals.TextInput {
