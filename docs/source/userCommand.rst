@@ -24,6 +24,7 @@ Import the discordia-slash
 Create a user command
 ------------
 .. code-block:: lua
+
     local client = discordia.Client:useApplicationCommands()
     client:enableAllIntents()
 
