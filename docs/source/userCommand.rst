@@ -23,6 +23,7 @@ Import the discordia-slash
 Create a user command
 ------------
 .. code-block:: lua
+
        local function initializeCommands(guild)
         local command, err = client:createGuildApplicationCommand(guild.id, {
             type = dia.enums.appCommandType.user,
