@@ -12,12 +12,8 @@ When this section is selected, it will make the menu and the main area scroll wh
 Discordia-slash
 =================
 
-Just a place holder...
-
-Slash
+Slash commands
 ---------
 
-Just a place holder...
-
-User
-^^^^^^^^^^^^
+App commands
+---------
