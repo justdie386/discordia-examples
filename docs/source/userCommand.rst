@@ -1,7 +1,8 @@
 User commands
 =====
 .. note::
-   User commands are very similar to slash commands, as they are bundled in the same extension, no need to download the deps if you already have slash commands    setup 
+   User commands are very similar to slash commands, as they are bundled in the same extension, no need to download the deps if you already have slash        commands setup
+   Message commands are also possible but aren't documented here.
 .. _Install:
 
 Installation
@@ -26,7 +27,7 @@ Create a user command
 
        local function initializeCommands(guild)
         local command, err = client:createGuildApplicationCommand(guild.id, {
-            type = dia.enums.appCommandType.user,
+            type = dia.enums.appCommandType.user, --putting .message could create a message app instead of a user app, but i haven't tested it
             name = "role",
         })
         end
@@ -37,3 +38,12 @@ Create a user command
     end)
 
 It is pretty much the same as slash commands but you can't put a description, will break otherwise
+
+Get data
+------------
+.. code-block:: lua
+   client:on("userCommand", function(interaction, command, args)
+   print(args)
+   end)
+
+So here since it is a user command, no one can really input data so args would be the user it was used on
