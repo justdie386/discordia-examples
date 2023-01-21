@@ -20,7 +20,7 @@ local dcmd = require("discordia-commands")
 
 Create a slash command
 ----------------
-.. code-block:: lua
+.. code-block::
    :linenos:
    local cient = dia.Client():useApplicationCommands()
    local function initializeCommands(guild)
