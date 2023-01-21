@@ -14,6 +14,7 @@ First off, you need to install the deps
 Import the discordia-slash
 ----------------
 .. code-block:: lua
+
    local discordia= require("discordia")
    local dcmd = require("discordia-commands")
 
