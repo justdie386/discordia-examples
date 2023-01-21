@@ -20,10 +20,8 @@ Slash commands
 Slash
 =====
 
-.. _Install:
-
 Installation
-------------
+^^^^^^^^^^^^
 
 First off, you need to install the deps
 
@@ -31,14 +29,14 @@ First off, you need to install the deps
 ``$ cd deps && git clone https://github.com/GitSparTV/discordia-slash  && git clone https://github.com/Bilal2453/discordia-interactions``
 
 Import the discordia-slash
-----------------
+^^^^^^^^^^^^
 .. code-block:: lua
 
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
 
 Create a slash command
-----------------
+^^^^^^^^^^^^
 .. code-block:: lua
 
    local client = discordia.Client():useApplicationCommands()
@@ -75,7 +73,7 @@ Create a slash command
 What this will do is that it will create a slash command with a text input and the client:on("ready") will initialize the command onto the server, note that there are other way to initialize the command but i use that one.
 
 Get the data from the text input
-----------------
+^^^^^^^^^^^^
 .. code-block:: lua
 
    client:on("slashCommand", function(interaction, command, args)
@@ -86,7 +84,7 @@ This will print out the value that has been put in the text field from the slash
 The reason why it has a .from. is because there is the from subcomand between the value and the command, and the name of the value would be person as the name in the example above says.
 
 Full code
-----------------
+^^^^^^^^^^^^
 .. code-block:: lua
 
    local discordia= require("discordia")
