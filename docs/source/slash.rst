@@ -91,8 +91,8 @@ Full code
                         type = optionType.string,
                         name = "role",
                         description = "id",
-                        required = true,
-                        autocomplete = true,
+                        required = true, --put false if you want it to be optional
+                        autocomplete = true, --won't change anything if the optionType is a .string, will autocomplete with users if it is a optionType.user
                     },
                 },
             },
@@ -107,5 +107,8 @@ Full code
    end)
    client:on("slashCommand", function(interaction, command, args)
       print(args.from.person)
+      interaction:reply("Success!")
    end)
    client:run("Bot your token")
+
+This will create a slash command, and will print the inputed value when running the slash command.
