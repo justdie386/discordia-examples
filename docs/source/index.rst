@@ -8,7 +8,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   The examples aren't perfect but they cover enough for anyone to use it
 
 Contents
 --------
