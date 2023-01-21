@@ -14,7 +14,7 @@ Installation
 First off, you need to install the deps
 
 
-``$ cd deps && git clone https://github.com/GitSparTV/discordia-slash  && git clone https://github.com/Bilal2453/discordia-interactions``
+``$ git clone git clone https://github.com/Bilal2453/discordia-interactions ./deps/discordia-interactions && git clone https://github.com/GitSparTV/discordia-slash ./deps/discordia-slash``
 
 Examples
 =================
