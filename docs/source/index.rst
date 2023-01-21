@@ -17,5 +17,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   slash
+   modals
+   buttons
+   sqlite
