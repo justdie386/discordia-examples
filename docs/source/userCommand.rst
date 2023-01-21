@@ -21,3 +21,16 @@ Import the discordia-slash
    local dcmd = require("discordia-commands")
    
 Create a user command
+------------
+.. code-block:: lua
+       local function initializeCommands(guild)
+        local command, err = client:createGuildApplicationCommand(guild.id, {
+            type = dia.enums.appCommandType.user,
+            name = "role",
+        })
+        end
+    client:on("ready", function()
+            for guild in client.guilds:iter() do
+                initializeCommands(guild)
+          end
+    end)
