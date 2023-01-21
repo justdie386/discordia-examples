@@ -14,7 +14,7 @@ First off, you need to install the deps
 Import the discordia-slash
 ----------------
 ```
-local dia = require("discordia")
+local discordia= require("discordia")
 local dcmd = require("discordia-commands")
 ```
 
@@ -22,7 +22,31 @@ Create a slash command
 ----------------
 .. code-block:: python
 
-   print("Hello World")
+   local client = discordia.Client():useApplicationCommands()
+
+local function initializeCommands(guild)
+    local command, err = client:createGuildApplicationCommand(guild.id, {
+        type = commandType.chatInput,
+        name = "get-users",
+        description = " nice",
+        options = {
+            {
+                type = optionType.subCommand,
+                name = " from",
+                description = "Enter the id",
+                options = {
+                    {
+                        type = optionType.string,
+                        name = "role",
+                        description = "id",
+                        required = true,
+                        autocomplete = true,
+                    },
+                },
+            },
+        },
+    })
+    end
 
 
 What this will do is that it will create a slash command with a text input
