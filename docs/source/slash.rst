@@ -23,7 +23,7 @@ Create a slash command
 .. code-block:: lua
 
    local client = discordia.Client():useApplicationCommands()
-
+   client:enableAllIntents()
    local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
@@ -73,8 +73,8 @@ Full code
 
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
-     local client = discordia.Client():useApplicationCommands()
-
+   local client = discordia.Client():useApplicationCommands()
+   client:enableAllIntents()
  local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
