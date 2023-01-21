@@ -21,7 +21,7 @@ local dcmd = require("discordia-commands")
 Create a slash command
 ----------------
 .. code-block:: python
-
+   :linenos:
    local client = discordia.Client():useApplicationCommands()
 
  local function initializeCommands(guild)
