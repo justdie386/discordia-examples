@@ -20,7 +20,7 @@ local dcmd = require("discordia-commands")
 
 Create a slash command
 ----------------
-```
+.. code-block:: console
 local cient = dia.Client():useApplicationCommands()
 
 local function initializeCommands(guild)
@@ -46,7 +46,7 @@ local function initializeCommands(guild)
         },
     })
     end
-```
+
 What this will do is that it will create a slash command with a text input
 
 Get the data from the text input
