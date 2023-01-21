@@ -1,6 +1,8 @@
 Modals
 =====
-
+.. note::
+   If you have discordia-components installed already, remove it and make sure you clone it from the dev branch using the commands below, if you already have 
+   some of the deps in the installation, no need to clone them again
 .. _Install:
 
 Installation
