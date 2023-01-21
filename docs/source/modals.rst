@@ -13,6 +13,7 @@ You need to install those
 Import the discordia-modals
 ------------
 .. code-block:: lua
+
    local discordia = require('discordia')
     require('discordia-components')
     local discordia_modals = require('discordia-modals')
@@ -21,6 +22,7 @@ Import the discordia-modals
 Create a modal
 ------------
 .. code-block:: lua
+
    local textinput_component = discordia_modals.TextInput {
   id = "resolved",
   style = "paragraph",
@@ -39,6 +41,7 @@ So this i really can't explain how it works, it just works :/
 Full code
 ------------
 .. code-block:: lua
+
    local discordia = require('discordia')
 require('discordia-components')
 local discordia_modals = require('discordia-modals')
