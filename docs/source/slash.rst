@@ -71,6 +71,7 @@ The reason why it has a .from. is because there is the from subcomand between th
 Full code
 ----------------
 .. code-block:: lua
+
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
 local client = discordia.Client():useApplicationCommands()
