@@ -9,6 +9,7 @@ Installation
 ------------
 
 You need to install those
+
 In your bot folder run:
 ``$ git clone https://github.com/Bilal2453/discordia-interactions ./deps/discordia-interactions && git clone --branch dev https://github.com/Bilal2453/discordia-modals ./deps/discordia-interactions``
 
