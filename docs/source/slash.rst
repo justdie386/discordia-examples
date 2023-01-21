@@ -109,4 +109,4 @@ Full code
    end)
    client:run("Bot your token")
 
-This will create a slash command, and will print the inputed value when running the slash command.
+This will create a slash command, will print the inputed value when running the slash command and reply to the interaction.
