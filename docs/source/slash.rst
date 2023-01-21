@@ -21,7 +21,7 @@ local dcmd = require("discordia-commands")
 Create a slash command
 ----------------
 .. code-block:: lua
-   :lineno-start: 1
+   :lineno-start: 10
    awesome
    cooler
 
