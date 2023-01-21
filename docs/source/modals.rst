@@ -40,7 +40,7 @@ Create a modal
 
    Full code
    ------------
-   .. code-block:: lua
+.. code-block:: lua
 
       local discordia = require('discordia')
    require('discordia-components')
