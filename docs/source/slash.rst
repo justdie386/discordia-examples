@@ -20,10 +20,10 @@ local dcmd = require("discordia-commands")
 
 Create a slash command
 ----------------
-.. code-block:: lua
-   :lineno-start: 10
-   awesome
-   cooler
+.. code-block:: python
+
+   print("Hello World")
+
 
 What this will do is that it will create a slash command with a text input
 
