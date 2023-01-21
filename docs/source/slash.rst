@@ -75,7 +75,8 @@ Full code
    local dcmd = require("discordia-slash")
    local client = discordia.Client():useApplicationCommands()
    client:enableAllIntents()
- local function initializeCommands(guild)
+   local interactionType = discordia.enums.interactionType
+   local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
         name = "test",
