@@ -45,8 +45,7 @@ local function initializeCommands(guild)
             },
         },
     })
-    end
-    ``
+    end``
 What this will do is that it will create a slash command with a text input
 
 Get the data from the text input
