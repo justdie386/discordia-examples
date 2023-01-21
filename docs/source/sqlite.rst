@@ -9,23 +9,21 @@ This section demonstrates how the 'sticky_navigation' setting behaves when the m
 When this section is selected, it will make the menu and the main area scroll when you are at the top of the page.
 
 Installation
---------
+=================
 
+Installation
+---------
+
+First off, you need to install the deps
+
+
+``$ cd deps && git clone https://github.com/GitSparTV/discordia-slash  && git clone https://github.com/Bilal2453/discordia-interactions``
 
 Examples
 =================
 
 Slash commands
 ---------
-
-Installation
-^^^^^^^^^^^^
-
-
-First off, you need to install the deps
-
-
-``$ cd deps && git clone https://github.com/GitSparTV/discordia-slash  && git clone https://github.com/Bilal2453/discordia-interactions``
 
 Import the discordia-slash
 ^^^^^^^^^^^^
