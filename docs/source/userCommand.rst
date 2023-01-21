@@ -47,7 +47,7 @@ Get data
 .. code-block:: lua
 
    client:on("userCommand", function(interaction, command, args)
-   print(args)
+      print(args)
    end)
 
 So here since it is a user command, no one can really input data so args would be the user it was used on
