@@ -11,6 +11,10 @@ When this section is selected, it will make the menu and the main area scroll wh
 Installation
 --------
 
+
+Examples
+--------
+
 User commands
 =================
 
