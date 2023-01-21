@@ -61,6 +61,7 @@ Full code
    local client = discordia.Client:useApplicationCommands()
    local discordia_modals = require('discordia-modals')
    local interactionType = discordia.enums.interactionType
+   local optionType = discordia.enums.appCommandOptionType
    client:enableAllIntents()
    
    local function initializeCommands(guild)
