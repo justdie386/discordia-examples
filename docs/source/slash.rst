@@ -22,31 +22,31 @@ Create a slash command
 ----------------
 .. code-block:: lua
    :linenos:
-local cient = dia.Client():useApplicationCommands()
+   local cient = dia.Client():useApplicationCommands()
 
-local function initializeCommands(guild)
-    local command, err = client:createGuildApplicationCommand(guild.id, {
-        type = commandType.chatInput,
-        name = "Hey",
-        description = " nice",
-        options = {
-            {
-                type = optionType.subCommand,
-                name = " from",
-                description = "Enter the id",
-                options = {
-                    {
-                        type = optionType.string, -- set optionType.user to make it select a member
-                        name = "person",
-                        description = "id",
-                        required = true,
-                        autocomplete = true,
-                    },
-                },
-            },
-        },
-    })
-    end
+   local function initializeCommands(guild)
+      local command, err = client:createGuildApplicationCommand(guild.id, {
+         type = commandType.chatInput,
+         name = "Hey",
+         description = " nice",
+         options = {
+               {
+                   type = optionType.subCommand,
+                   name = " from",
+                  description = "Enter the id",
+                  options = {
+                      {
+                         type = optionType.string, -- set optionType.user to make it select a member
+                          name = "person",
+                          description = "id",
+                          required = true,
+                          autocomplete = true,
+                      },
+                 },
+               },
+         },
+       })
+     end
 
 What this will do is that it will create a slash command with a text input
 
