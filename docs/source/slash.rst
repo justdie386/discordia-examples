@@ -13,10 +13,9 @@ First off, you need to install the deps
 
 Import the discordia-slash
 ----------------
-```
-local discordia= require("discordia")
-local dcmd = require("discordia-commands")
-```
+.. code-block:: lua
+   local discordia= require("discordia")
+   local dcmd = require("discordia-commands")
 
 Create a slash command
 ----------------
