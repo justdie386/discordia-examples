@@ -59,6 +59,8 @@ Full code
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
    local client = discordia.Client:useApplicationCommands()
+   local discordia_modals = require('discordia-modals')
+   local interactionType = discordia.enums.interactionType
    client:enableAllIntents()
    
    local function initializeCommands(guild)
