@@ -17,13 +17,15 @@ Import the discordia-slash
 
 .. code-block:: lua
    
-   
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
+   
    
 Create a user command
 ------------
 .. code-block:: lua
+    local client = discordia.Client:useApplicationCommands()
+    client:enableAllIntents()
 
        local function initializeCommands(guild)
         local command, err = client:createGuildApplicationCommand(guild.id, {
@@ -48,3 +50,28 @@ Get data
    end)
 
 So here since it is a user command, no one can really input data so args would be the user it was used on
+
+Full code
+------------
+
+.. code-block:: lua
+   local discordia= require("discordia")
+   local dcmd = require("discordia-slash")
+   local client = discordia.Client:useApplicationCommands()
+   client:enableAllIntents()
+   
+   local function initializeCommands(guild)
+        local command, err = client:createGuildApplicationCommand(guild.id, {
+            type = dia.enums.appCommandType.user, --putting .message could create a message app instead of a user app, but i haven't tested it
+            name = "role",
+        })
+        end
+    client:on("ready", function()
+            for guild in client.guilds:iter() do
+                initializeCommands(guild)
+          end
+    end)
+       client:on("userCommand", function(interaction, command, args)
+   print(args)
+   end)
+   client:run("Bot your token")
