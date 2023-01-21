@@ -10,11 +10,12 @@ how to :ref:`installation` the project.
 
    The examples aren't perfect but they cover enough for anyone to use it
    
-   Dependencies:
-   https://github.com/Bilal2453/discordia-interactions
-   https://github.com/GitSparTV/discordia-slash
-   https://github.com/Bilal2453/discordia-modals
-   https://github.com/Bilal2453/discordia-components
+   
+ Dependencies:
+ https://github.com/Bilal2453/discordia-interactions
+ https://github.com/GitSparTV/discordia-slash
+ https://github.com/Bilal2453/discordia-modals
+ https://github.com/Bilal2453/discordia-components
    
 Contents
 --------
