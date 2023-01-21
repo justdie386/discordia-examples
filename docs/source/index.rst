@@ -20,15 +20,7 @@ I am making this because i remember how pissed i was when i tried to use undocum
    
 Contents
 --------
-
-.. toctree::
-
-   slash
-   modals
-   userCommand
-   buttons
-   sqlite
-
+.. contents::
 Example Submenu 1
 =================
 
@@ -51,3 +43,74 @@ Just a place holder...
 
 Submenu 2
 ---------
+
+Just a place holder...
+
+Subsubmenu 1
+^^^^^^^^^^^^
+
+Just a place holder...
+
+Submenu 3
+---------
+
+Just a place holder...
+
+Submenu 4
+---------
+
+Just a place holder...
+
+Submenu 5
+---------
+
+Just a place holder...
+
+Example Submenu 2
+=================
+
+Just a place holder...
+
+Submenu 1
+---------
+
+Just a place holder...
+
+Subsubmenu 1
+^^^^^^^^^^^^
+
+Just a place holder...
+
+Submenu 2
+---------
+
+Just a place holder...
+
+Subsubmenu 1
+^^^^^^^^^^^^
+
+Just a place holder...
+
+Submenu 3
+---------
+
+Just a place holder...
+
+Submenu 4
+---------
+
+Just a place holder...
+
+Submenu 5
+---------
+
+Just a place holder...
+
+.. toctree::
+
+   slash
+   modals
+   userCommand
+   buttons
+   sqlite
+
