@@ -35,3 +35,5 @@ Create a user command
                 initializeCommands(guild)
           end
     end)
+
+It is pretty much the same as slash commands but you can't put a description, will break otherwise
