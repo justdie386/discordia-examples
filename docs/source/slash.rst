@@ -24,7 +24,7 @@ Create a slash command
 
    local client = discordia.Client():useApplicationCommands()
 
-local function initializeCommands(guild)
+ local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
         name = "get-users",
