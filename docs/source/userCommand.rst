@@ -1,6 +1,7 @@
 User commands
 =====
-
+.. note::
+   User commands are very similar to slash commands, as they are bundled in the same extension, no need to download the deps if you already have slash commands    setup 
 .. _Install:
 
 Installation
@@ -18,3 +19,5 @@ Import the discordia-slash
    
    local discordia= require("discordia")
    local dcmd = require("discordia-commands")
+   
+Create a user command
