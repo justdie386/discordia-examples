@@ -13,7 +13,7 @@ Discordia-slash
 =================
 
 Slash commands
----------
+^^^^^^^^^^^^
 
 App commands
----------
+^^^^^^^^^^^^
