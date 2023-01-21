@@ -101,8 +101,7 @@ Full code
     end
     client:on("ready", function()
         for guild in client.guilds:iter() do
-             --for some reason we need to use this to actually load the slash command or smt otherwise it won't create itself
-            initializeCommands(guild)
+            initializeCommands(guild) --there are other way to initialize it but it is the only way i know
       end
    end)
    client:on("slashCommand", function(interaction, command, args)
