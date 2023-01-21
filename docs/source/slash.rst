@@ -13,9 +13,9 @@ First off, you need to install the deps
 
 Import the discordia-slash
 ----------------
-``$ local dia = require("discordia")
+```$ local dia = require("discordia")
     local dcmd = require("discordia-commands")
-``
+```
 
 Create a slash command
 ----------------
