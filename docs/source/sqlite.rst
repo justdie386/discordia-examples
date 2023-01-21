@@ -13,13 +13,14 @@ Installation
 
 
 Examples
---------
+=================
 
 Slash commands
-^^^^^^^^^^^^
+---------
 
 Installation
 ^^^^^^^^^^^^
+
 
 First off, you need to install the deps
 
