@@ -22,12 +22,12 @@ Create a slash command
 ----------------
 .. code-block:: lua
    :linenos:
-   local cient = dia.Client():useApplicationCommands()
-   local function initializeCommands(guild)
-   local command, err = client:createGuildApplicationCommand(guild.id, {
-   type = commandType.chatInput,
-   name = "Hey",
-   description = " nice",
+  local cient = dia.Client():useApplicationCommands()
+  local function initializeCommands(guild)
+  local command, err = client:createGuildApplicationCommand(guild.id, {
+ type = commandType.chatInput,
+name = "Hey",
+     description = " nice",
    options = {
    {
    type = optionType.subCommand,
