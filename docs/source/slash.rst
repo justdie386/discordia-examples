@@ -52,7 +52,7 @@ Create a slash command
              --for some reason we need to use this to actually load the slash command or smt otherwise it won't create itself
             initializeCommands(guild)
       end
-end)
+   end)
 
 
 What this will do is that it will create a slash command with a text input and the client:on("ready") will initialize the command onto the server, note that there are other way to initialize the command but i use that one.
@@ -67,3 +67,7 @@ Get the data from the text input
    
 This will print out the value that has been put in the text field from the slash command
 The reason why it has a .from. is because there is the from subcomand between the value and the command, and the name of the value would be person as the name in the example above says.
+
+Full code
+----------------
+
