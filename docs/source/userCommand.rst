@@ -55,6 +55,7 @@ Full code
 ------------
 
 .. code-block:: lua
+
    local discordia= require("discordia")
    local dcmd = require("discordia-slash")
    local client = discordia.Client:useApplicationCommands()
