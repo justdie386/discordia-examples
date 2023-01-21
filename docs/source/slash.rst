@@ -76,7 +76,7 @@ Full code
    local client = discordia.Client():useApplicationCommands()
    client:enableAllIntents()
    local interactionType = discordia.enums.interactionType
-   local optionType = dia.enums.appCommandOptionType
+   local optionType = discordia.enums.appCommandOptionType
    local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
         type = commandType.chatInput,
