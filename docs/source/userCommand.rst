@@ -42,6 +42,7 @@ It is pretty much the same as slash commands but you can't put a description, wi
 Get data
 ------------
 .. code-block:: lua
+
    client:on("userCommand", function(interaction, command, args)
    print(args)
    end)
