@@ -125,7 +125,7 @@ This will create a slash command, will print the inputed value when running the 
 
 
 App commands
-^^^^^^^^^^^^
+---------
 
 .. note::
    User commands are very similar to slash commands, as they are bundled in the same extension, no need to download the deps if you already have slash        commands setup
