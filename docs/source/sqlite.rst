@@ -15,9 +15,6 @@ Installation
 Examples
 --------
 
-User commands
-=================
-
 Slash commands
 ^^^^^^^^^^^^
 
