@@ -28,5 +28,6 @@ Contents
 
    slash
    modals
+   userCommand
    buttons
    sqlite
