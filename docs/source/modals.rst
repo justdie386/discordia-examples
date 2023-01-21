@@ -36,7 +36,7 @@ Create a modal
      textinput_component,
    }
 
-   So this i really can't explain how it works, it just works :/
+So this i really can't explain how it works, it just works :/
 
 Full source code
 ------------
