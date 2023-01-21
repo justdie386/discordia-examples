@@ -38,8 +38,8 @@ Create a modal
 
    So this i really can't explain how it works, it just works :/
 
-   Full code
-   ------------
+Full source code
+------------
 .. code-block:: lua
 
       local discordia = require('discordia')
@@ -88,4 +88,4 @@ Create a modal
      end
    end)
 
-So uhh yeah thats about it
+This code creates a button and when pressed, will open a modal. Data structure should be the same as with discordia-slash.
