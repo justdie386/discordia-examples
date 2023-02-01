@@ -23,9 +23,6 @@ Contents
 
 .. toctree::
 
-   slash
    modals
-   userCommand
-   buttons
    sqlite
 
