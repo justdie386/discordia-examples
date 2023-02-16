@@ -4,7 +4,7 @@ Here, you'll see how to use sqlite made for luvit
 
 Installation
 ^^^^^^^^^^^^
-If on linux, install sqlite3 from your package manager, for mac and windows, download `the precompiled binary <https://www.sqlite.org/download.html>_ for your plateform and put the file into your script's folder
+If on linux, install sqlite3 from your package manager, for mac and windows, download `the precompiled binary <https://www.sqlite.org/download.html>`_ for your plateform and put the file into your script's folder
 Finally, run this
 
 ``./lit install SinisterRectus/sqlite3``
