@@ -6,6 +6,9 @@ Installation
 =================
 On linux, install sqlite3 from your package manager, for mac and windows, download and put the file into your bot's folder
 https://www.sqlite.org/download.html
+Finally, run this
+
+``./lit install SinisterRectus/sqlite3 ``
 
 Examples
 =================
