@@ -59,6 +59,3 @@ Read a value
       
 And that gets the amount of money the author has.
 
-
-So thats about it, you can now create a table, insert value into a table, and select value from it!
-
