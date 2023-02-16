@@ -12,7 +12,7 @@ Finally, run this
 
 Examples
 =================
-Lets say i wanna make a db for me and my friends, so we each have our own amount of money, for whatever reason.
+Lets say i wanna make a database for me and my friends, so we each have our own amount of money, for whatever reason.
 First, create the table data, with the collums id, money, and name
 
 Create the database
