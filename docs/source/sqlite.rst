@@ -10,9 +10,6 @@ Create a database
 ^^^^^^^^^^^^
 .. code-block:: lua
    conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
-.. code-block:: lua
-
-        conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
 
 This will put the value of math.randominto the collums id, money, name.
 .. code-block:: lua
