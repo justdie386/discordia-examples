@@ -9,9 +9,11 @@ First, create the table data, with the collums id, money, and name
 Create a database
 ^^^^^^^^^^^^
 .. code-block:: lua
+
    conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
 
 This will put the value of math.randominto the collums id, money, name.
+
 .. code-block:: lua
 
         client:on("messageCreate", function(message)
@@ -21,6 +23,7 @@ This will put the value of math.randominto the collums id, money, name.
                 end)
     
 Add money to a user after he has beeen created into the database
+
 .. code-block:: lua
 
     client:on("messageCreate", function(message)
