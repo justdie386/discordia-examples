@@ -26,4 +26,4 @@ Contents
    modals
    slash
    sqlite
-   General examples
+   General
