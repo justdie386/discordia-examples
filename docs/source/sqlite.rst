@@ -6,7 +6,12 @@ Examples
 =================
 Lets say i wanna make a db for me and my friends, so we each have our own amount of money, for whatever reason.
 First, create the table data, with the collums id, money, and name
-conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
+Create a database
+^^^^^^^^^^^^
+.. code-block:: lua
+
+        conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
+
 This will put the value of math.randominto the collums id, money, name.
 .. code-block:: lua
 
