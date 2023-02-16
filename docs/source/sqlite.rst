@@ -12,6 +12,7 @@ Lets say i wanna make a db for me and my friends, so we each have our own amount
 First, create the table data, with the collums id, money, and name
 Create the database
 ^^^^^^^^^^^^
+
 .. code-block:: lua
 
    conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
