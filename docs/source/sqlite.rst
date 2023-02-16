@@ -10,6 +10,10 @@ Create a database
 ^^^^^^^^^^^^
 .. code-block:: lua
 
+   local discordia= require("discordia")
+   local dcmd = require("discordia-slash")
+.. code-block:: lua
+
         conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
 
 This will put the value of math.randominto the collums id, money, name.
