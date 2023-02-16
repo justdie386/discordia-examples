@@ -3,7 +3,7 @@ Sqlite
 Here, you'll see how to use sqlite made for luvit
 
 Installation
-=================
+^^^^^^^^^^^^
 On linux, install sqlite3 from your package manager, for mac and windows, download and put the file into your bot's folder
 https://www.sqlite.org/download.html
 Finally, run this
@@ -11,7 +11,7 @@ Finally, run this
 ``./lit install SinisterRectus/sqlite3``
 
 Examples
-=================
+^^^^^^^^^^^^
 Lets say i wanna make a database for me and my friends, so we each have our own amount of money, for whatever reason.
 First, create the table data, with the collums id, money, and name
 
