@@ -12,6 +12,7 @@ This will put the value of math.randominto the collums id, money, name.
     conn:exec[[INSERT OR IGNORE INTO data (id, name) VALUES('" .. message.member.id .. "','" .. message.member.name .. "')]]
       end
     end)
+    
 Add money to a user after he has beeen created into the database
 .. code-block:: lua
 
@@ -20,6 +21,7 @@ Add money to a user after he has beeen created into the database
     conn:exec[[INSERT OR IGNORE INTO data (money) VALUES('" .. math.random(1, 10) .. "')]]
       end
     end)
+    
 get the value of a collum using a user's name
 client:on("messageCreate", function(message)
 if message.content == "balance" then
