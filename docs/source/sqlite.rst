@@ -63,3 +63,7 @@ Read a value
       
 And that gets the amount of money the author has.
 
+More docs/examples
+^^^^^^^^^^^^
+
+For additional documentation https://scilua.org/ljsqlite3.html
