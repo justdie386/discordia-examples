@@ -8,7 +8,7 @@ On linux, install sqlite3 from your package manager, for mac and windows, downlo
 https://www.sqlite.org/download.html
 Finally, run this
 
-``./lit install SinisterRectus/sqlite3 ``
+`` ./lit install SinisterRectus/sqlite3 ``
 
 Examples
 =================
