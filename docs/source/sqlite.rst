@@ -6,13 +6,14 @@ Installation
 =================
 On linux, install sqlite3 from your package manager, for mac and windows, download and put the file into your bot's folder
 https://www.sqlite.org/download.html
+
 Examples
 =================
 Lets say i wanna make a db for me and my friends, so we each have our own amount of money, for whatever reason.
 First, create the table data, with the collums id, money, and name
+
 Create the database
 ^^^^^^^^^^^^
-
 .. code-block:: lua
 
    conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
