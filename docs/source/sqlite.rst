@@ -31,7 +31,6 @@ Add money to a user after he has beeen created into the database
 
 Give a value
 ^^^^^^^^^^^^
-
 .. code-block:: lua
 
     client:on("messageCreate", function(message)
@@ -44,8 +43,8 @@ This gives a random amount of money to the author of the message
 
 Read a value
 ^^^^^^^^^^^^
-
 .. code-block:: lua
+
       client:on("messageCreate", function(message)
       if message.content == "balance" then
       id = message.author.id
