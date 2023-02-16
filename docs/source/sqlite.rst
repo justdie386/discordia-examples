@@ -9,9 +9,7 @@ First, create the table data, with the collums id, money, and name
 Create a database
 ^^^^^^^^^^^^
 .. code-block:: lua
-
-   local discordia= require("discordia")
-   local dcmd = require("discordia-slash")
+   conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
 .. code-block:: lua
 
         conn:exec[[CREATE TABLE data (id REAL money REAL name REAL]]
