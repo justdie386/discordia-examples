@@ -1,3 +1,7 @@
+***************
+General examples
+***************
+
 Get every user with a certain role (also works with onReady as an event)
 
 .. code-block:: lua
