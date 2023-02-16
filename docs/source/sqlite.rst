@@ -15,11 +15,11 @@ Create a database
 This will put the value of math.randominto the collums id, money, name.
 .. code-block:: lua
 
-    client:on("messageCreate", function(message)
-    if message.content == "create" then
-    conn:exec[[INSERT OR IGNORE INTO data (id, name) VALUES('" .. message.member.id .. "','" .. message.member.name .. "')]]
-      end
-    end)
+        client:on("messageCreate", function(message)
+        if message.content == "create" then
+               conn:exec[[INSERT OR IGNORE INTO data (id, name) VALUES('" .. message.member.id .. "','" .. message.member.name .. "')]]
+                      end
+                end)
     
 Add money to a user after he has beeen created into the database
 .. code-block:: lua
