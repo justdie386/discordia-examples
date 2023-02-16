@@ -24,5 +24,5 @@ Contents
 .. toctree::
 
    modals
-   sqlite
+   slash
 
