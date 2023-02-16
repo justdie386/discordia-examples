@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Discordia examples
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Discordia examples, as i remember how annoying it was to find such examples online and/or in the discordia support discord server
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Courtesy of me, justdie#2686
