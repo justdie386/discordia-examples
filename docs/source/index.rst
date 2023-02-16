@@ -3,6 +3,8 @@ Discordia-examples
 
 I am making this because i remember how pissed i was when i tried to use undocumented or poorly documented extensions related to discordia
 
+Courtesy of Justdie#2686
+https://github.com/justdie386
 .. note::
 
    The examples aren't perfect but they cover enough for anyone to use it
