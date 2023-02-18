@@ -56,7 +56,7 @@ Read a value
       id = message.author.id
       local money = conn:exec[[SELECT money FROM data WHERE id = '" .. message.author.id .. "']]
       if money ~ nil then --nil check just in case
-      print(money[1][1] --why [1][1]? not sure but it won't work otherwise
+      print(money[1][1]) --why [1][1]? not sure but it won't work otherwise
           end
         end
       end)
