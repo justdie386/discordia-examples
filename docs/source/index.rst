@@ -6,6 +6,8 @@ I am making this because i remember how pissed i was when i tried to use undocum
 Courtesy of Justdie#2686
 https://github.com/justdie386
 
+Big thanks to sinisterrectus for making this library!
+
 .. note::
 
    The examples aren't perfect but they cover enough for anyone to use it
