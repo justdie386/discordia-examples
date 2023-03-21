@@ -94,7 +94,7 @@ Full code
         options = {
             {
                 type = optionType.subCommand,
-                name = " from",
+                name = "from",
                 description = "Enter the id",
                 options = {
                     {
