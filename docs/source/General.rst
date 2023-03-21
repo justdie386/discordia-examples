@@ -29,7 +29,7 @@ send a message without replying
 .. code-block:: lua
 
   client:on("messageCreate", function(msg)
-    msg.channel:reply("this didn't ping now did it?")
+    msg.channel:send("this didn't ping now did it?")
   end)
 
 split a message to get a value from it
