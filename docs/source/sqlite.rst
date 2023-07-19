@@ -20,7 +20,7 @@ Create the database
 
    local sql = require "sqlite3"
    local conn = sql.open("./data.sqlite")
-   conn:exec[[CREATE TABLE data (id REAL money REAL name REAL)]]
+   conn:exec[[CREATE TABLE data (id REAL, money REAL, name REAL)]]
 
 
 Add a user
