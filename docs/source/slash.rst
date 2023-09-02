@@ -45,7 +45,7 @@ Create a slash command
                 description = "Enter the id",
                 options = {
                     {
-                        type = optionType.string,
+                        type = optionType.string, --putting .user will make the person select a user and not just input a string
                         name = "person",
                         description = "id",
                         required = true,
