@@ -36,7 +36,6 @@ Create a slash command
    local client = discordia.Client():useApplicationCommands()
    local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
-        type = commandType.chatInput,
         name = "test",
         description = " nice",
         options = {
@@ -88,7 +87,6 @@ Full code
    local optionType = discordia.enums.appCommandOptionType
    local function initializeCommands(guild)
     local command, err = client:createGuildApplicationCommand(guild.id, {
-        type = commandType.chatInput,
         name = "test",
         description = " nice",
         options = {
